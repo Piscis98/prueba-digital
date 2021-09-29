@@ -1,0 +1,26 @@
+<div class="container-al">
+<mat-grid-list class="container-albums" cols="3" rowHeight="2.5:3.5">
+    <mat-grid-tile *ngFor="let item of albums">
+
+        <mat-card class="album">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{item.title}}</mat-card-title>
+              <mat-card-subtitle>Subtitle</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ad exercitationem expedita corporis ex? Quod sint temporibus.
+              </p>
+            </mat-card-content>
+            <!-- <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions> -->
+          </mat-card>
+          
+
+    </mat-grid-tile>
+</mat-grid-list>
+</div>

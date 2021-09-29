@@ -1,0 +1,25 @@
+
+
+  header{
+
+    width: 100%;
+    // position: block;
+    z-index: 10;
+
+      section{
+
+        .active-link{
+            background-color: #00a1f1;
+         }
+      
+         .nav{
+             background-color: #0000FF;
+             a{
+                 color: #ffffff;
+                 overflow: hidden;
+             }
+        }
+
+      }
+  }
+  

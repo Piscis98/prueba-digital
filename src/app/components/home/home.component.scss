@@ -1,0 +1,17 @@
+
+.container-grid{
+    margin-top:4.5%;
+    width: 90%;
+    height:auto;
+    margin-left: 5%;
+    // background-color: blue;
+    mat-grid-tile{
+        justify-content: center;
+        img{
+            width: 100%;
+            height: 100%;
+            margin: 1% 1% 1% 1%;
+        }
+    }
+   
+}

@@ -1,0 +1,62 @@
+<!-- <mat-tab-group #tabRef mat-align-tabs="center" animationDuration="1000ms" dynamicHeight [selectedIndex]="active" (selectedTabChange)="selectedTabChange(tabRef.selectedIndex)">
+
+    <mat-tab matTooltip="Home">
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">home</mat-icon>
+        <p>Home</p>
+      </ng-template>
+      <app-home></app-home>
+    </mat-tab>
+  
+    <mat-tab matTooltip="Users">
+      <ng-template mat-tab-label>
+        <mat-icon class="example-tab-icon">group</mat-icon>
+        <p>Users</p>
+      </ng-template>
+  
+     <app-users></app-users>
+    </mat-tab>
+
+    <mat-tab matTooltip="Albums">
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">collections</mat-icon>
+          <p>Albums</p>
+        </ng-template>
+    
+        <app-albums></app-albums>
+      </mat-tab>
+
+
+      <mat-tab matTooltip="Posts">
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">photo_camera</mat-icon>
+          <p>Posts</p>
+        </ng-template>
+        <app-posts></app-posts>
+      </mat-tab>
+
+  </mat-tab-group>  -->
+<header>
+  <section>
+  <nav mat-tab-nav-bar mat-align-tabs="center" class="nav">
+    <a mat-tab-link
+       *ngFor="let link of navLinks"
+       [routerLink]="link.path"
+       routerLinkActive="active-link"
+       [routerLinkActiveOptions]="{exact:
+        true}"
+       >
+        <div style="display: flex; align-items: center; font-size: 17px;"> 
+        <mat-icon class="example-tab-icon">{{link.icon}}</mat-icon>&nbsp; &nbsp;
+        {{link.label}}
+       </div> 
+    </a>
+  </nav>
+</section>
+</header>
+  
+  <router-outlet></router-outlet>
+  
+
+   
+  

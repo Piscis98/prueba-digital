@@ -1,0 +1,219 @@
+
+.container-al{
+    margin-top: 4.5%;
+    .container-albums{
+        width: 96%;
+        height: 100%;
+        margin-left: 1%;
+        margin-top: 1%;
+        // background-color: blue;
+        padding: 1% 1% 1% 1%;
+     //overflow-y: scroll !important;
+        scroll-behavior: auto;
+        position:relative;
+    
+            .album {
+                margin: 2% 2% 2% 2%;
+                width: 70%;
+                height: 80%;
+                background-color: grey;
+                text-align: center;
+                mat-card-header{
+                    mat-card-title{
+                        font-size: 15px;
+                    }
+                }
+              }
+              
+        
+    }
+}
+
+
+    @media screen and (min-width: 1120px) {
+
+
+.container-al{
+    margin-top: 4.5%;
+    .container-albums{
+        width: 96%;
+        height: 100%;
+        margin-left: 1%;
+        margin-top: 1%;
+        // background-color: blue;
+        padding: 1% 1% 1% 1%;
+     //overflow-y: scroll !important;
+        scroll-behavior: auto;
+        position:relative;
+    
+            .album {
+                margin: 2% 2% 2% 2%;
+                width: 70%;
+                height: 80%;
+                background-color: grey;
+                text-align: center;
+                mat-card-header{
+                    mat-card-title{
+                        font-size: 15px;
+                    }
+                }
+              }
+              
+        
+    }
+}
+     
+    }
+
+
+    @media screen  and (min-width: 1000px) {
+
+        .container-al{
+            margin-top: 4.5%;
+            .container-albums{
+                width: 96%;
+                height: 100%;
+                margin-left: 1%;
+                margin-top: 1%;
+                // background-color: blue;
+                padding: 1% 1% 1% 1%;
+             //overflow-y: scroll !important;
+                scroll-behavior: auto;
+                position:relative;
+            
+                    .album {
+                        margin: 2% 2% 2% 2%;
+                        width: 80%;
+                        height: 90%;
+                         background-color: grey;
+                        text-align: center;
+                        mat-card-header{
+                            mat-card-title{
+                                font-size: 15px;
+                            }
+                        }
+                      }
+                      
+                
+            }
+        }
+     
+    }
+
+
+    @media screen  and (max-width: 1000px) {
+
+        .container-al{
+            margin-top: 4.5%;
+            .container-albums{
+                width: 96%;
+                height: 100%;
+                margin-left: 1%;
+                margin-top: 1%;
+                // background-color: blue;
+                padding: 1% 1% 1% 1%;
+             //overflow-y: scroll !important;
+                scroll-behavior: auto;
+                position:relative;
+            
+                    .album {
+                        margin: 1% 1% 1% 1%;
+                        width: 90%;
+                        height: 95%;
+                         background-color: grey;
+                        text-align: center;
+                        mat-card-header{
+                            mat-card-title{
+                                font-size: 15px;
+                            }
+                        }
+                      }
+                      
+                
+            }
+        }
+     
+    }
+
+
+    @media screen and (max-width:800px) {
+
+
+        .container-al{
+            margin-top: 4.5%;
+            .container-albums{
+                width: 96%;
+                height: 100%;
+                margin-left: 1%;
+                margin-top: 1%;
+                // background-color: blue;
+                padding: 1% 1% 1% 1%;
+             //overflow-y: scroll !important;
+                scroll-behavior: auto;
+                position:relative;
+            
+                    .album {
+                        margin: 2% 2% 2% 2%;
+                        width: 100%;
+                        height: 100%;
+                         background-color: grey;
+                        text-align: center;
+                        font-size: 10px;
+                        mat-card-header{
+                            mat-card-title{
+                                // font-size: 10px;
+                            }
+                        }
+                        mat-card-content{
+                            display: none;
+                        }
+                      }
+                      
+                
+            }
+        }
+      
+     
+    }
+
+
+    
+
+    @media screen and (max-width:599px) {
+
+
+        .container-al{
+            margin-top: 4.5%;
+            .container-albums{
+                width: 96%;
+                height: 100%;
+                margin-left: 1%;
+                margin-top: 1%;
+                // background-color: blue;
+                padding: 1% 1% 1% 1%;
+             //overflow-y: scroll !important;
+                scroll-behavior: auto;
+                position:relative;
+            
+                    .album {
+                        margin: 2% 2% 2% 2%;
+                        width: 100%;
+                        height: 100%;
+                         background-color: grey;
+                        text-align: center;
+                        mat-card-header{
+                            mat-card-title{
+                                font-size: 15px;
+                            }
+                        }
+                        mat-card-content{
+                            display: none;
+                        }
+                      }
+                      
+                
+            }
+        }
+      
+     
+    }

@@ -1,3 +1,47 @@
+
+# Prueba Digital
+
+ Entrono usado angular.
+
+# Requisitos
+
+ NodeJs version 14.
+
+ Angular.
+
+ # Instalación NodeJs
+
+ https://nodejs.org/es/
+
+# Instalacion Angular
+
+Después de tener NodeJs instalado puede instalar el angular/cli (Nota: no es necesario este paso, puesto que el siguiente paso lo hará de manera local en el proyecto);
+
+npm install -g @angular/cli
+
+
+# Instalación de dependencias
+
+Ingrese a la ruta del proyecto y ejecute el comando
+
+npm install
+
+# Ejecutar servidor
+
+Para ejecutar el sevidor de angular puede ejecutar cualquiera de los comandos siguientes
+
+npm run start
+
+npm start
+
+ng serve (Nota: si tiene el angular cli instalado)
+
+
+# Ver proyecto en el navegador
+
+ http://localhost:4200
+
+
 # PruebaDigi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
